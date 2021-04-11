@@ -1,0 +1,33 @@
+body{
+  background-color:cornflowerblue;
+}
+
+.container{
+  margin: auto;
+  width: 50%;
+  border: 3px solid white;
+  padding: 10px;
+  background-color: #EAE6E5;
+}
+
+h1{
+  font-family: sans-serif;
+  color: crimson;
+}
+
+h2{
+  color: #B84A32;
+  font-family: sans-serif;
+}
+
+p{
+  font-family:arial;
+}
+
+.enter_value{
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 4px;
+}

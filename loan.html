@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Let Me Calculate Your Loan For You</title>
+    <link rel="stylesheet" href="loan.css">
+  </head>
+  <body>
+
+    <div class="container" align='center'>
+      <h1>LOAN CALCULATOR</h1>
+      <p>Loan Amount:</p>
+      <p><input class="enter_value" id="amount" type="text" name="" value="" placeholder="Enter amount here" onchange="computeLoan()"></p>
+      <p>Interest Rate (%):</p>
+      <p><input class="enter_value" id="interestRate"type="text" name="" value="10" placeholder="Enter Interest rate" size="30" onchange="computeLoan()"></p>
+      <p>Duration (months):</p>
+      <p><input class="enter_value" id="repayDuration" type="text" name="" value="1" placeholder="Enter number of months" size="30" onchange="computeLoan()"></p>
+
+      <h2 id="payment"></h2>
+      <p>
+        <h1 id="totalPayment"></h1>
+      </p>
+    </div>
+
+<script src="loan.js" charset="utf-8"></script>
+  </body>
+</html>
